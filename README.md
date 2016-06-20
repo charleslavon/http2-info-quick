@@ -30,6 +30,7 @@ Similar to the way a specific web browser must provide its own implmentation of 
 
 ######What does this mean for our web performance best practices?
 It would be a good exercise for you to review the following list and understand how & why these recommendations may become irrevelant with HTTP/2
+
 	1. Save Bandwidth
 		1.1 Minify & Combine CSS resources
 		1.2 Minify & Combine JavaScript resources
@@ -49,6 +50,7 @@ It would be a good exercise for you to review the following list and understand 
 	3. Simpliy & Be Lazy
 		3.1 Simpily the UI, and super-optimize the content that appears "above the fold" such that it has no dependencies (or a minimum) on external resources or Javascript. This allows the initial view of the UI to render quickly.
 		3.2 Use lazy-loading to load only the content that’s visible to the user immediately right away. While the user is engaging with that content, load other content so that the user does not endure interruptions or wait time. We can implemented lazy-loading in Javascript by using a user's scroll activity as a trigger to download resources for the UI below the page. http://blog.pamelafox.org/2014/01/improving-front-page-performance.html
+
 
 
 
