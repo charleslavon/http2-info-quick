@@ -1,5 +1,5 @@
 # http2-info-quick
-A quick overview of HTTP/2 and it's implications on web development
+A quick overview of HTTP/2 and its implications on web development
 
 Imagine you are in the business of building houses. You've been constructing houses for over a decade now and you are very good at your job. Now a new set of tools and building materials arrive that promise to give you powers that you never had before. They allow you to build houses that are stronger, more resource efficient and more capable of being customized to the needs of each potential homeowner. Do you learn these new tools, develop an opinion on when and how to use them and potentially become a better builder? Or do you stick to what you already do best and ignore new possibilities of advancing technologies? Of course you eagerly seek out new information. We are engineers. We love to learn. So let's jump in.
 
