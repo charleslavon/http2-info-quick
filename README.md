@@ -1,9 +1,7 @@
 # http2-info-quick
 A quick overview of HTTP/2 and it's implications on web development
 
-
-######What is HTTP/2 & why do we care?
-Imagine you are in the business of building houses. You've been constructing houses for over a decade now and you are very good at your job. Now a new set of tools and building materials arrive that promise to give you powers that you never had before. They allow you to build houses that are stronger, more resource efficient and more capabile of being customized to the needs of each potential homeowner. Do you learn these new tools, develop an opinion on when and how to use them and potentially become a better builder? Or do you stick to what you already do best and ignore new possibilities of advancing technologies? Of course you eagerly seek out new information. We are engineers. We love to learn. So let's jump in.
+ntools and building materials arrive that promise to give you powers that you never had before. They allow you to build houses that are stronger, more resource efficient and more capabile of being customized to the needs of each potential homeowner. Do you learn these new tools, develop an opinion on when and how to use them and potentially become a better builder? Or do you stick to what you already do best and ignore new possibilities of advancing technologies? Of course you eagerly seek out new information. We are engineers. We love to learn. So let's jump in.
 
 HTTP/2 is the next version of the HTTP specification version 1.0 that was originally published in 1999. That's right, we've been using as a foundational communication pattern for the web a specification which has not changed since AskJeeves was more well known that Google Search. 
 
@@ -34,8 +32,8 @@ Similar to the way a specific web browser must provide its own implmentation of 
 It would be a good exercise for you to review the following list and understand how & why these recommendations may become irrevelant with HTTP/2
 
 	1. Save Bandwidth
-		1.1 Minify & Combine Nuance CSS resources
-		1.2 Minify & Combine Naunce JavaScript resources
+		1.1 Minify & Combine CSS resources
+		1.2 Minify & Combine JavaScript resources
 		1.3 Resize images based on device screen size (smaller screens get smaller images)
 		1.4 Compress images to minimize bit size
 		1.5 Avoid web fonts for text
@@ -43,7 +41,7 @@ It would be a good exercise for you to review the following list and understand 
 
 	2. Reduce/Optimize # HTTP requests
 		1.1 Encourage browser caching of infrequently changing resources via HTML5's appCache
-		1.2 Serve non-Nuance Javascript Libaries from GoogleCDN
+		1.2 Serve 3rd party Javascript Libaries from GoogleCDN
 		1.3 Replace images with CSS effects (requires testing scrolling performance and page repaints as too many CSS-based images can be costly - some css commands are quitely costly on a browser's rendering time)
 		1.4 Use SVGs or SVGZ for high quality Logos/Diagrams instead of PNGs
 		1.5 Use Image Sprites (recommended when CSS3 and SVG are not valid options) and should only be used for images which rarely change. Because changing one image in sprite required rebuilding the entire sprite and updated all the code that references each image on the sprite.
